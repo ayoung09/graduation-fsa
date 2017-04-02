@@ -1,4 +1,4 @@
-module.exports = [
+const images = [
   'images/Alexia.jpg',
   'images/Christine.jpg',
   'images/David.jpg',
@@ -12,3 +12,13 @@ module.exports = [
   'images/Nick.jpg',
   'images/Connie.jpg',
 ];
+
+const students = ['Alexia', 'Christine', 'David', 'Don', 'Mack', 'Meg', 'Ray', 'Rob', 'Sara', 'Soren'];
+
+const instructors = ['Nick', 'Connie'];
+
+module.exports = {
+  images,
+  students,
+  instructors
+};
