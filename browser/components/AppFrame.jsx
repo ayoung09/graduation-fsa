@@ -11,6 +11,7 @@ const mapStateToProps = state => ({
 });
 
 const AppFrame = ({ students, instructors, images }) => {
+  console.log('these are images in appframe: ', images);
   return (
     <div className="app-frame">
       <div className="header">
@@ -22,11 +23,23 @@ const AppFrame = ({ students, instructors, images }) => {
       </div>
 
       <div className="students-section">
-        <h2 className="sub-header">The Kittens</h2>
+        <div>
+          <h2 className="sub-header">The Kittens</h2>
+          <div className="thumbnails-container">
+            {students.map(studentName => (
+              <Thumbnail key={studentName} name={studentName} image={images[studentName]} />
+              ))}
+          </div>
+        </div>
       </div>
 
       <div className="instructors-section">
         <h2 className="sub-header">The Big Cats</h2>
+        <div className="thumbnails-container">
+          {instructors.map(instructorName => (
+            <Thumbnail key={instructorName} name={instructorName} image={images[instructorName]} />
+            ))}
+        </div>
       </div>
 
     </div>

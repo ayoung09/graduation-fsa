@@ -44,6 +44,34 @@ body {
   font-weight: 900;
 }
 
+.students-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .sub-header {
+  width: 100%;
   font-family: 'Poiret One', cursive;
+  font-size: 36px;
+  text-align: center;
+  margin: 15px;
+}
+
+.thumbnails-container {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail-container {
+  width: 20%;
+  margin: 0;
+}
+
+.thumbnail-img {
+  width: 100%;
 }

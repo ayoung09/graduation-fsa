@@ -19,10 +19,12 @@ const thumbnailReducer = (prevState = initialState, action) => {
       newState.instructors = action.instructors;
       break;
     case RECEIVE_ALL_IMAGES:
-      newState.images = action.images;
+      newState.images = Object.assign({}, action.images);
+      break;
     default:
       return prevState;
   }
+  console.log('this is new state: ', newState);
   return newState;
 };
 
