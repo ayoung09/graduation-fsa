@@ -21,6 +21,14 @@ const AppFrame = ({ students, instructors, images }) => {
         <h1 className="mid-header-text">1701-FSA-CH</h1>
       </div>
 
+      <div className="students-section">
+        <h2 className="sub-header">The Kittens</h2>
+      </div>
+
+      <div className="instructors-section">
+        <h2 className="sub-header">The Big Cats</h2>
+      </div>
+
     </div>
   );
 };
