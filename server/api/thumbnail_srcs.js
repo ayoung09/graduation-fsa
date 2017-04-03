@@ -1,17 +1,17 @@
-const images = [
-  'images/Alexia.jpg',
-  'images/Christine.jpg',
-  'images/David.jpg',
-  'images/Don.jpg',
-  'images/Mack.jpg',
-  'images/Meg.jpg',
-  'images/Ray.jpg',
-  'images/Rob.jpg',
-  'images/Sara.jpg',
-  'images/Soren.jpg',
-  'images/Nick.jpg',
-  'images/Connie.jpg',
-];
+const images = {
+  Alexia: 'images/Alexia.jpg',
+  Christine: 'images/Christine.jpg',
+  David: 'images/David.jpg',
+  Don: 'images/Don.jpg',
+  Mack: 'images/Mack.jpg',
+  Meg: 'images/Meg.jpg',
+  Ray: 'images/Ray.jpg',
+  Rob: 'images/Rob.jpg',
+  Sara: 'images/Sara.jpg',
+  Soren: 'images/Soren.jpg',
+  Nick: 'images/Nick.jpg',
+  Connie: 'images/Connie.jpg',
+};
 
 const students = ['Alexia', 'Christine', 'David', 'Don', 'Mack', 'Meg', 'Ray', 'Rob', 'Sara', 'Soren'];
 
