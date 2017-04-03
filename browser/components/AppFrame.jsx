@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router';
 
-import Thumbnail from './Thumbnail';
+import Thumbnail from './Thumbnail.jsx';
 
 const mapStateToProps = state => ({
   students: state.thumbnails.students,
@@ -16,8 +16,11 @@ const AppFrame = ({ students, instructors, images }) => {
       <div className="header">
         <h1 className="header-text">Chicago Cats Love Cookies</h1>
       </div>
-      <div>
+
+      <div className="mid-section">
+        <h1 className="mid-header-text">1701-FSA-CH</h1>
       </div>
+
     </div>
   );
 };
