@@ -1,4 +1,5 @@
 body {
+  display: flex;
   padding: 0;
   margin: 0;
 }
@@ -61,17 +62,20 @@ body {
 
 .thumbnails-container {
   width: 100%;
-  display: inline-block;
+  display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .thumbnail-container {
-  width: 20%;
-  margin: 0;
+  display: flex;
+  width: 18%;
+  margin: 10px;
+  padding: 0;
 }
 
 .thumbnail-img {
-  width: 100%;
+  width: 70%;
+  height: 90%;
 }

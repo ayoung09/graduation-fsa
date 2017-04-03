@@ -9,8 +9,8 @@ const images = {
   Rob: 'images/Rob.jpg',
   Sara: 'images/Sara.jpg',
   Soren: 'images/Soren.jpg',
-  Nick: 'images/Nick.jpg',
-  Connie: 'images/Connie.jpg',
+  Nick: 'images/Nick.jpeg',
+  Connie: 'images/Connie.jpeg',
 };
 
 const students = ['Alexia', 'Christine', 'David', 'Don', 'Mack', 'Meg', 'Ray', 'Rob', 'Sara', 'Soren'];

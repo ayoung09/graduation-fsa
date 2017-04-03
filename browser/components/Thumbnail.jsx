@@ -5,6 +5,7 @@ const Thumbnail = ({name, image}) => {
   return (
     <div className="thumbnail-container">
       <img className="thumbnail-img" src={image} />
+      <br />
       <h3>{name}</h3>
     </div>
   );
