@@ -10,37 +10,41 @@ const mapStateToProps = state => ({
   images: state.thumbnails.images,
 });
 
-const AppFrame = ({ students, instructors, images }) => {
-  console.log('these are images in appframe: ', images);
+const AppFrame = ({ children, students, instructors, images }) => {
   return (
     <div className="app-frame">
+      <div className="color-block"></div>
       <div className="header">
-        <h1 className="header-text">Chicago Cats Love Cookies</h1>
+        <Link to="/"><h1 className="header-text">Chicago Cats Love Cookies</h1></Link>
       </div>
 
-      <div className="mid-section">
-        <h1 className="mid-header-text">1701-FSA-CH</h1>
-      </div>
-
-      <div className="students-section">
+      {children ? children :
         <div>
-          <h2 className="sub-header">The Kittens</h2>
-          <div className="thumbnails-container">
-            {students.map(studentName => (
-              <Thumbnail key={studentName} name={studentName} image={images[studentName]} />
-              ))}
+          <div className="mid-section">
+            <h1 className="mid-header-text">1701-FSA-CH</h1>
+          </div>
+
+          <div className="students-section">
+            <div>
+              <h2 className="sub-header">The Kittens</h2>
+              <div className="thumbnails-container">
+                {students.map(studentName => (
+                  <Thumbnail key={studentName} name={studentName} image={images[studentName]} />
+                  ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="instructors-section">
+            <h2 className="sub-header">The Big Cats</h2>
+            <div className="thumbnails-container">
+              {instructors.map(instructorName => (
+                <Thumbnail key={instructorName} name={instructorName} image={images[instructorName]} />
+                ))}
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="instructors-section">
-        <h2 className="sub-header">The Big Cats</h2>
-        <div className="thumbnails-container">
-          {instructors.map(instructorName => (
-            <Thumbnail key={instructorName} name={instructorName} image={images[instructorName]} />
-            ))}
-        </div>
-      </div>
+      }
 
     </div>
   );

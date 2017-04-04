@@ -6,9 +6,7 @@ const Thumbnail = ({name, image}) => {
   return (
     <Link to={`/profiles/${name}`}><div className="thumbnail-container">
       <img className="thumbnail-img" src={image} />
-      <div className="thumbnail-name">
-        <h3>{name}</h3>
-      </div>
+      <h3 className="thumbnail-name">{name}</h3>
     </div></Link>
   );
 };
