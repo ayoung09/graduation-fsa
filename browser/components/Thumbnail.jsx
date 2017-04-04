@@ -1,13 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 const Thumbnail = ({name, image}) => {
   console.log('this is image in thumbnail: ', image);
   return (
-    <div className="thumbnail-container">
+    <Link to={`/profiles/${name}`}><div className="thumbnail-container">
       <img className="thumbnail-img" src={image} />
-      <br />
-      <h3>{name}</h3>
-    </div>
+      <div className="thumbnail-name">
+        <h3>{name}</h3>
+      </div>
+    </div></Link>
   );
 };
 
