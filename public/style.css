@@ -57,7 +57,8 @@ a:visited {
   font-family: 'Cardo', serif;
   font-size: 60px;
   background-color: white;
-  font-weight: 900;
+  opacity: 0.85;
+  font-weight: 800;
 }
 
 .students-section {

@@ -13,6 +13,8 @@ const Profile = ({currentProfile, profiles}) => {
       <img className="cat-image" src={profile.cat} />
       <p className="cat-caption">{profile.caption}</p>
       <br />
+      <img className="funny-image" src={profile.funnyPic} />
+      <br />
       <h3 className="profile-sub-header">Happiest Memory</h3>
       <br />
       <p className="caption">{profile.happiest}</p>
