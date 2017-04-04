@@ -41,7 +41,7 @@ const Don = {
 const Mack = {
   cat: '/images/Mack_cat.gif',
   caption: 'Just say the words "Free pizza" and see Mack-cat jump up with excitement - "OH MY GOD!" - and rush out to the kitchen.',
-  happiest: 'Joining Sytherin, Top House ',
+  happiest: 'Joining Slytherin, Top House ',
   funniest: '¯\_(ツ)_/¯  (will think of one later)',
   quote: 'Everyone has been awesome to work with and be around! I\'ve never worked with a nicer group of individuals in my 25 years!! \n Sailing this Summer! yeehaw!'
 };
