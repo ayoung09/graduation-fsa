@@ -33,9 +33,9 @@ const David = {
 const Don = {
   cat: '/images/Don_cat.gif',
   caption: 'Before hitting the gym, Don-cat hurriedly slurps up his ramen lunch. Gotta get them gains!',
-  happiest: '',
-  funniest: '',
-  quote: ''
+  happiest: 'With our team (Wine Anonymous). This was a big moment that helped me gain confidence that I could build anything I wanted with the help of a supportive and very capable team.',
+  funniest: 'No one moment, just a bunch of little moments. Our class is silly.',
+  quote: 'Thank you. You guys are amazing people. It was great getting to know you. \n Too many cats.'
 };
 
 const Mack = {
@@ -49,25 +49,25 @@ const Mack = {
 const Meg = {
   cat: '/images/Meg_cat.jpg',
   caption: 'Have a headache? Meg-cat is happy to provide you with the medicine you need and/or a freshly-brewed cup of coffee.',
-  happiest: '',
-  funniest: '',
-  quote: ''
+  happiest: 'Somewhere between code break-thru high fives and general cookie consumption/coordination',
+  funniest: '(multiple recurrences) Bad, bad coder puns + dad humour... from christine\'s card for Nick to our evolving Div/old-spice jokes',
+  quote: 'Keep the pet picture stream alive and good luck! \n Lair life 4 ever. . . (because it\'s an awesome idea)'
 };
 
 const Nick = {
   cat: '/images/Nick_cat.jpg',
   caption: 'Master chef/baker Nick-cat is always happy to bake cookies for his darling students.',
-  happiest: '',
-  funniest: '',
-  quote: ''
+  happiest: 'Suprising everyone with cookies the moment the cookie monster appeared onscreen during the Auther lecture',
+  funniest: 'Every single day',
+  quote: 'You are all wonderful, and I could not have asked for a better cohort. Thank you all for such a special experience. It\'s been one of the best 13 week segments of my life, I\'m going to miss each and every one of you (except Rob) dearly next come week.'
 };
 
 const Ray = {
   cat: '/images/Ray_cat.jpg',
   caption: 'Is it Friday? Ray-cat will happily join you in partaking in French Fry-day.',
-  happiest: '',
-  funniest: '',
-  quote: ''
+  happiest: 'The moments I realized that I made lifelong friends',
+  funniest: 'When we randomly started sorting ourselves into our Harry Potter houses and it became a thing.',
+  quote: 'Thanks for making this an amazing experience. Love you all. \n Lair-Depot for life!!!'
 };
 
 const Rob = {
