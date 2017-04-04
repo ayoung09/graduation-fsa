@@ -134,10 +134,13 @@ a:visited {
   color: white;
 }
 
-
-
 .caption, .cat-caption{
   font-family: 'Cardo', serif;
   font-size: 20px;
   color: #8B4513;
+}
+
+.cat-image {
+  height: 200px;
+  width: 200px;
 }
