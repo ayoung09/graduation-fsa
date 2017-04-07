@@ -167,3 +167,9 @@ a:visited {
   width: 100%;
   text-align: center;
 }
+
+.funny-image {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}

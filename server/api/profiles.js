@@ -2,7 +2,7 @@ const Alexia = {
   cat: '/images/Alexia_cat.jpg',
   funnyPic: '/images/Alexia-400.jpg',
   caption: 'A constant snacker, Alexia-cat\'s treat of choice is always cookies. Always.',
-  happiest: '',
+  happiest: 'I\'m ALWAYS happy with all you cats! :)',
   funniest: '',
   quote: '',
 };
@@ -48,7 +48,7 @@ const Mack = {
   funnyPic: '/images/Mack-400.jpg',
   caption: 'Just say the words "Free pizza" and see Mack-cat jump up with excitement - "OH MY GOD!" - and rush out to the kitchen.',
   happiest: 'Joining Slytherin, Top House ',
-  funniest: '¯\_(ツ)_/¯  (will think of one later)',
+  funniest: '¯\\_(ツ)_/¯  (will think of one later)',
   quote: 'Everyone has been awesome to work with and be around! I\'ve never worked with a nicer group of individuals in my 25 years!! \n Sailing this Summer! yeehaw!'
 };
 
@@ -101,9 +101,9 @@ const Soren = {
   cat: '/images/Soren_cat.jpg',
   funnyPic: '/images/Soren-400.jpg',
   caption: 'Chief of Scoping-out-free-food, Soren-cat is highly adept at informing his cohort-mates of free yummies to fill their tummies.',
-  happiest: '',
-  funniest: '',
-  quote: ''
+  happiest: 'Working on the Capstone project and realizing how much I had improved since the program started.',
+  funniest: 'Nick Lee\'s excessive fist pump after learning he would be partnered with Don on TripPlanner\'s UI competition.',
+  quote: 'I\'m not a big fan of a lot of the people I meet, but you all are pretty cool :)'
 };
 
 module.exports = {
