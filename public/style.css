@@ -129,18 +129,41 @@ a:visited {
 }
 
 .profile-sub-header {
+  width: 100%;
   font-family: 'Poiret One', cursive;
   font-size: 36px;
+  text-align: center;
   color: white;
 }
 
+.cat-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cat-name {
+  width: 100%;
+  font-family: 'Poiret One', cursive;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
 .caption, .cat-caption{
+  width: 100%;
   font-family: 'Cardo', serif;
   font-size: 20px;
   color: #8B4513;
 }
 
 .cat-image {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
 }

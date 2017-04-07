@@ -72,7 +72,7 @@ const Nick = {
 
 const Ray = {
   cat: '/images/Ray_cat.jpg',
-  funnyPic: '',
+  funnyPic: '/images/Ray-400.jpg',
   caption: 'Is it Friday? Ray-cat will happily join you in partaking in French Fry-day.',
   happiest: 'The moments I realized that I made lifelong friends',
   funniest: 'When we randomly started sorting ourselves into our Harry Potter houses and it became a thing.',
