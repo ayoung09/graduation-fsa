@@ -2,9 +2,9 @@ const Alexia = {
   cat: '/images/Alexia_cat.jpg',
   funnyPic: '/images/Alexia-400.jpg',
   caption: 'A constant snacker, Alexia-cat\'s treat of choice is always cookies. Always.',
-  happiest: 'I\'m ALWAYS happy with all you cats! :)',
-  funniest: '',
-  quote: '',
+  happiest: 'I\'m ALWAYS happy with all you cats! :) Even more so any time we play Avalon.',
+  funniest: 'Most recently, laughing until my stomach hurt (I was literally almost crying) watching David and Soren during Agile-Armature\'s dress rehearsal.',
+  quote: 'I consider myself very blessed to have spent the past 13 weeks with you all. Thank you for making this one of the best experiences of my life <3',
 };
 
 const Christine = {
@@ -67,7 +67,7 @@ const Nick = {
   caption: 'Master chef/baker Nick-cat is always happy to bake cookies for his darling students.',
   happiest: 'Suprising everyone with cookies the moment the cookie monster appeared onscreen during the Auther lecture',
   funniest: 'Every single day',
-  quote: 'You are all wonderful, and I could not have asked for a better cohort. Thank you all for such a special experience. It\'s been one of the best 13 week segments of my life, I\'m going to miss each and every one of you (except Rob) dearly next come week.'
+  quote: 'You are all wonderful, and I could not have asked for a better cohort. Thank you all for such a special experience.  It\'s been one of the best 13 week segments of my life, I\'m going to miss each and every one of you (except Rob) dearly next come week.'
 };
 
 const Ray = {
@@ -89,7 +89,7 @@ const Rob = {
 };
 
 const Sara = {
-  cat: '/images/Sara_cat.png',
+  cat: '/images/Sara_cat.jpg',
   funnyPic: '/images/Sara-400.jpg',
   caption: 'Little-known fact: Sara-cat often likes to get fancy and ride on cute horses. She is secretly a horse-whisperer.',
   happiest: 'Bonding and having a lot of fun in the super pod during Review Week',
